@@ -14,32 +14,16 @@ export default function Home() {
       <main>
         <div className={styles.wrapper}>
           <div className={styles["scroll-container"]}>
-            <div className={styles["scroll-area"]}>
-              <div className={styles.content}>1</div>
-            </div>
-            <div className={styles["scroll-area"]}>
-              <div className={styles.content}>1</div>
-            </div>
-            <div className={styles["scroll-area"]}>
-              <div className={styles.content}>1</div>
-            </div>
-            <div className={styles["scroll-area"]}>
-              <div className={styles.content}>1</div>
-            </div>
+            <div className={styles["scroll-area"]}>1</div>
+            <div className={styles["scroll-area"]}>2</div>
+            <div className={styles["scroll-area"]}>3</div>
+            <div className={styles["scroll-area"]}>4</div>
           </div>
           <div className={styles["scroll-container"]}>
-            <div className={styles["scroll-area"]}>
-              <div className={styles.content}>1</div>
-            </div>
-            <div className={styles["scroll-area"]}>
-              <div className={styles.content}>1</div>
-            </div>
-            <div className={styles["scroll-area"]}>
-              <div className={styles.content}>1</div>
-            </div>
-            <div className={styles["scroll-area"]}>
-              <div className={styles.content}>1</div>
-            </div>
+            <div className={styles["scroll-area"]}>1</div>
+            <div className={styles["scroll-area"]}>2</div>
+            <div className={styles["scroll-area"]}>3</div>
+            <div className={styles["scroll-area"]}>4</div>
           </div>
         </div>
       </main>
