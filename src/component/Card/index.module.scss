@@ -1,0 +1,23 @@
+.cardContainer {
+  .card {
+    width: 100%;
+    display: flex;
+
+    .left,
+    .right {
+      width: 50%;
+
+      div {
+        height: 100vh;
+      }
+    }
+
+    .left {
+      background: #49b293;
+    }
+
+    .right {
+      background: #c94e4b;
+    }
+  }
+}
