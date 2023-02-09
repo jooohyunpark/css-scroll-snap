@@ -11,7 +11,38 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}></main>
+      <main>
+        <div className={styles.wrapper}>
+          <div className={styles["scroll-container"]}>
+            <div className={styles["scroll-area"]}>
+              <div className={styles.content}>1</div>
+            </div>
+            <div className={styles["scroll-area"]}>
+              <div className={styles.content}>1</div>
+            </div>
+            <div className={styles["scroll-area"]}>
+              <div className={styles.content}>1</div>
+            </div>
+            <div className={styles["scroll-area"]}>
+              <div className={styles.content}>1</div>
+            </div>
+          </div>
+          <div className={styles["scroll-container"]}>
+            <div className={styles["scroll-area"]}>
+              <div className={styles.content}>1</div>
+            </div>
+            <div className={styles["scroll-area"]}>
+              <div className={styles.content}>1</div>
+            </div>
+            <div className={styles["scroll-area"]}>
+              <div className={styles.content}>1</div>
+            </div>
+            <div className={styles["scroll-area"]}>
+              <div className={styles.content}>1</div>
+            </div>
+          </div>
+        </div>
+      </main>
     </>
   );
 }
